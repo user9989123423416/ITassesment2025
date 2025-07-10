@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+  <header>
+    <h1>Contact The BookHaus</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="menu.html">Books</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section>
+      
+      <form onsubmit="return validateForm()" style="margin-top: 30px;">
+        <h2 style="color: aliceblue;">Send us a message</h2>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button type="submit">Send</button>
+        <br>
+        <br>
+        <h2 style="color: aliceblue; font-size: xx-large;">  Email: </h2>
+        <a href="mailto:customersupport@theBookHaus.com.np" style="padding-bottom: 50px; color: aliceblue; font-size: x-large;">customersupport@theBookHaus.com.np</a>
+      </form>
+
+    </section>
+    
+     <section class="map-section">
+
+ 
+      <h2>Or visit us in person </h2>
+      <div class="map-container">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.551390317578!2d85.31818227546647!3d27.70077977618991!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb198a3a2d525f%3A0x6739600a747c3664!2sDurbar%20Marg%2C%20Kathmandu%2044600!5e0!3m2!1sen!2snp!4v1718600000000!5m2!1sen!2snp"
+          width="100%"
+          height="450"
+          style="border:0;"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </section>
+    </main>
+  </main>
+   <footer>
+  <div class="footer-top">
+    <div class="footer-logo">
+      <h3 class="logo-text">The BookHaus</h3>
+      <p class="company-name">Kathmandu, Nepal</p>
+      </div>
+    <div class="footer-links-columns">
+      <div class="footer-column">
+        <h4>Legal</h4>
+        <ul>
+          <li><a href="#">TERMS & CONDITIONS</a></li>
+          <li><a href="#">PRIVACY POLICY</a></li>
+        </ul>
+      </div>
+    
+      <div class="footer-column">
+        <h4>LINKS</h4>
+        <ul>
+          <li><a href="about.html">ABOUT US</a></li>
+          <li><a href="contact.html">CONTACT US</a></li>
+          <li><a href="menu.html">OUR BOOKS</a></li>
+          <li><a href="">RESOURCES</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <hr class="footer-divider">
+  <div class="footer-bottom">
+    <div class="social-icons">
+      <a href="https://www.facebook.com/" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://x.com/" class="social-icon"><i class="fab fa-twitter"></i></a>
+      <a href="https://www.instagram.com/" class="social-icon"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.linkedin.com/" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+      <br>
+    <p class="copyright">&copy; Copyright. All rights reserved.</p>
+  </div>
+</footer>
+  <script src="script.js"></script>
+</body>
+</html>
